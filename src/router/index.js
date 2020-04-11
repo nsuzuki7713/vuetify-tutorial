@@ -8,6 +8,7 @@ import Float from "../components/Float.vue";
 import Text from "../components/Text.vue";
 import Typography from "../components/Typography.vue";
 import Alert from "../components/Alert.vue";
+import Avatar from "../components/Avatar.vue";
 
 Vue.use(VueRouter);
 
@@ -51,6 +52,11 @@ const routes = [
     path: "/alert",
     name: "Alert",
     component: Alert
+  },
+  {
+    path: "/avatar",
+    name: "Avatar",
+    component: Avatar
   }
 ];
 

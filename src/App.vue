@@ -9,6 +9,7 @@
       <router-link to="/text" class="ma-2">text</router-link>
       <router-link to="/typography" class="ma-2">typography</router-link>
       <router-link to="/alert" class="ma-2">alert</router-link>
+      <router-link to="/avatar" class="ma-2">avatar</router-link>
     </div>
     <router-view></router-view>
   </v-app>

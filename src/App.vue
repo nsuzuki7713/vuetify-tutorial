@@ -6,6 +6,7 @@
       <router-link to="/display" class="ma-2">display</router-link>
       <router-link to="/flex" class="ma-2">flex</router-link>
       <router-link to="/float" class="ma-2">float</router-link>
+      <router-link to="/text" class="ma-2">text</router-link>
     </div>
     <router-view></router-view>
   </v-app>

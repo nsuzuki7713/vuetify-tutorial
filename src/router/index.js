@@ -5,6 +5,7 @@ import Content from "../components/Content.vue";
 import Display from "../components/Display.vue";
 import Flex from "../components/Flex.vue";
 import Float from "../components/Float.vue";
+import Text from "../components/Text.vue";
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: "/float",
     name: "Float",
     component: Float
+  },
+  {
+    path: "/text",
+    name: "Text",
+    component: Text
   }
 ];
 

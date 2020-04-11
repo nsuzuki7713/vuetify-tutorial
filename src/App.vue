@@ -7,11 +7,11 @@
       <router-link to="/flex" class="ma-2">flex</router-link>
       <router-link to="/float" class="ma-2">float</router-link>
       <router-link to="/text" class="ma-2">text</router-link>
+      <router-link to="/typography" class="ma-2">typography</router-link>
     </div>
     <router-view></router-view>
   </v-app>
 </template>
-4
 <script>
 export default {
   name: "App",

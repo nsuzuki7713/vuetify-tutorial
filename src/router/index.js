@@ -7,6 +7,7 @@ import Flex from "../components/Flex.vue";
 import Float from "../components/Float.vue";
 import Text from "../components/Text.vue";
 import Typography from "../components/Typography.vue";
+import Alert from "../components/Alert.vue";
 
 Vue.use(VueRouter);
 
@@ -45,6 +46,11 @@ const routes = [
     path: "/typography",
     name: "Typography",
     component: Typography
+  },
+  {
+    path: "/alert",
+    name: "Alert",
+    component: Alert
   }
 ];
 

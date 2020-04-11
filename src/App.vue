@@ -8,6 +8,7 @@
       <router-link to="/float" class="ma-2">float</router-link>
       <router-link to="/text" class="ma-2">text</router-link>
       <router-link to="/typography" class="ma-2">typography</router-link>
+      <router-link to="/alert" class="ma-2">alert</router-link>
     </div>
     <router-view></router-view>
   </v-app>

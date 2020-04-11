@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Color from "../components/Color.vue";
 import Content from "../components/Content.vue";
+import Display from "../components/Display.vue";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/content",
     name: "Content",
     component: Content
+  },
+  {
+    path: "/display",
+    name: "Display",
+    component: Display
   }
 ];
 

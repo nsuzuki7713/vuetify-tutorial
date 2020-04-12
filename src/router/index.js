@@ -11,6 +11,7 @@ import Alert from "../components/Alert.vue";
 import Avatar from "../components/Avatar.vue";
 import Badges from "../components/Badge.vue";
 import Banners from "../components/Banners.vue";
+import AppVar from "../components/AppVar.vue";
 
 Vue.use(VueRouter);
 
@@ -69,6 +70,11 @@ const routes = [
     path: "/banners",
     name: "Banners",
     component: Banners
+  },
+  {
+    path: "/appvar",
+    name: "AppVar",
+    component: AppVar
   }
 ];
 

@@ -10,6 +10,7 @@ import Typography from "../components/Typography.vue";
 import Alert from "../components/Alert.vue";
 import Avatar from "../components/Avatar.vue";
 import Badges from "../components/Badge.vue";
+import Banners from "../components/Banners.vue";
 
 Vue.use(VueRouter);
 
@@ -63,6 +64,11 @@ const routes = [
     path: "/badges",
     name: "Badges",
     component: Badges
+  },
+  {
+    path: "/banners",
+    name: "Banners",
+    component: Banners
   }
 ];
 

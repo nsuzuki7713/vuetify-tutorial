@@ -9,6 +9,7 @@ import Text from "../components/Text.vue";
 import Typography from "../components/Typography.vue";
 import Alert from "../components/Alert.vue";
 import Avatar from "../components/Avatar.vue";
+import Badges from "../components/Badge.vue";
 
 Vue.use(VueRouter);
 
@@ -57,6 +58,11 @@ const routes = [
     path: "/avatar",
     name: "Avatar",
     component: Avatar
+  },
+  {
+    path: "/badges",
+    name: "Badges",
+    component: Badges
   }
 ];
 

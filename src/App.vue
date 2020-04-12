@@ -10,6 +10,7 @@
       <router-link to="/typography" class="ma-2">typography</router-link>
       <router-link to="/alert" class="ma-2">alert</router-link>
       <router-link to="/avatar" class="ma-2">avatar</router-link>
+      <router-link to="/badges" class="ma-2">badges</router-link>
     </div>
     <router-view></router-view>
   </v-app>

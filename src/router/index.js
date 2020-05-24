@@ -12,6 +12,7 @@ import Avatar from "../components/Avatar.vue";
 import Badges from "../components/Badge.vue";
 import Banners from "../components/Banners.vue";
 import AppVar from "../components/AppVar.vue";
+import SelectBox from "../components/SelectBox.vue";
 
 Vue.use(VueRouter);
 
@@ -19,69 +20,74 @@ const routes = [
   {
     path: "/color",
     name: "Color",
-    component: Color
+    component: Color,
   },
   {
     path: "/content",
     name: "Content",
-    component: Content
+    component: Content,
   },
   {
     path: "/display",
     name: "Display",
-    component: Display
+    component: Display,
   },
   {
     path: "/flex",
     name: "Flex",
-    component: Flex
+    component: Flex,
   },
   {
     path: "/float",
     name: "Float",
-    component: Float
+    component: Float,
   },
   {
     path: "/text",
     name: "Text",
-    component: Text
+    component: Text,
   },
   {
     path: "/typography",
     name: "Typography",
-    component: Typography
+    component: Typography,
   },
   {
     path: "/alert",
     name: "Alert",
-    component: Alert
+    component: Alert,
   },
   {
     path: "/avatar",
     name: "Avatar",
-    component: Avatar
+    component: Avatar,
   },
   {
     path: "/badges",
     name: "Badges",
-    component: Badges
+    component: Badges,
   },
   {
     path: "/banners",
     name: "Banners",
-    component: Banners
+    component: Banners,
   },
   {
     path: "/appvar",
     name: "AppVar",
-    component: AppVar
-  }
+    component: AppVar,
+  },
+  {
+    path: "/selectbox",
+    name: "SelectBox",
+    component: SelectBox,
+  },
 ];
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes
+  routes,
 });
 
 export default router;

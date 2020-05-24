@@ -13,6 +13,7 @@
       <router-link to="/badges" class="ma-2">badges</router-link>
       <router-link to="/banners" class="ma-2">banners</router-link>
       <router-link to="/appvar" class="ma-2">appvar</router-link>
+      <router-link to="/selectbox" class="ma-2">selectbox</router-link>
     </div>
     <router-view></router-view>
   </v-app>

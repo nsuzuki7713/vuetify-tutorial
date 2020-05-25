@@ -8,10 +8,10 @@
         <thead>
           <tr>
             <th class="text-left">マスタ</th>
-            <th class="text-left" style="width: 300px">
+            <th class="text-left">
               <v-checkbox label="プラン1" v-model="checkFlag[0]" />
             </th>
-            <th class="text-left" style="width: 300px">
+            <th class="text-left">
               <v-checkbox label="プラン2" v-model="checkFlag[1]" />
             </th>
             <th class="text-left">
@@ -31,6 +31,7 @@
                 dense
                 :disabled="checkFlag[0]"
                 full-width
+                style="width: 300px"
               ></v-select>
             </td>
             <td>
@@ -41,6 +42,7 @@
                 solo
                 dense
                 :disabled="checkFlag[1]"
+                style="width: 300px"
               ></v-select>
             </td>
             <td>
@@ -50,6 +52,7 @@
                 :counter="10"
                 label="First name"
                 required
+                style="width: 300px"
               ></v-text-field>
               <!-- <v-select
                 v-model="plans[2][item.code]"
@@ -107,7 +110,7 @@ export default {
             value: "1-1"
           },
           {
-            text: "こんにちわああああ",
+            text: "こんにちわあああああああああああああああああああああああ",
             value: "1-2"
           },
           {

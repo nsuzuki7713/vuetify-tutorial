@@ -1,14 +1,17 @@
 <template>
   <div>
-    <v-simple-table style="width:1000px; margin:0 auto">
+    <v-col class="d-flex" cols="2" sm="2">
+      <v-select :items="items" label="Solo field" solo></v-select>
+    </v-col>
+    <v-simple-table style="margin:0 auto">
       <template v-slot:default>
         <thead>
           <tr>
             <th class="text-left">マスタ</th>
-            <th class="text-left">
+            <th class="text-left" style="width: 300px">
               <v-checkbox label="プラン1" v-model="checkFlag[0]" />
             </th>
-            <th class="text-left">
+            <th class="text-left" style="width: 300px">
               <v-checkbox label="プラン2" v-model="checkFlag[1]" />
             </th>
             <th class="text-left">
@@ -27,6 +30,7 @@
                 solo
                 dense
                 :disabled="checkFlag[0]"
+                full-width
               ></v-select>
             </td>
             <td>
@@ -69,6 +73,7 @@
 <script>
 export default {
   data: () => ({
+    items: ["Foo", "こんにちはっっっっっっっっっっｈ", "Fizz", "Buzz"],
     checkFlag: [false, false, false],
     plans: [
       {
@@ -102,7 +107,7 @@ export default {
             value: "1-1"
           },
           {
-            text: "1-2",
+            text: "こんにちわああああ",
             value: "1-2"
           },
           {
@@ -191,7 +196,11 @@ export default {
 </script>
 
 <style scoped>
->>> .v-text-field__details {
+div >>> .v-text-field__details {
   display: none;
+}
+
+div >>> .v-select__selections input {
+  width: 0;
 }
 </style>
